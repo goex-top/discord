@@ -1,3 +1,3 @@
-module github.com/beaquant/discord
+module github.com/goex-top/discord
 
 go 1.17
