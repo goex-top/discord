@@ -29,12 +29,12 @@ func TestDiscord(t *testing.T) {
 		}
 	}
 	newWebhook := &Webhook{
-		Content:   "Hello",
-		Username:  "I'm the King",
+		Content: "Hello",
+		//Username:  "I'm the King",
 		AvatarUrl: "https://golang.org/lib/godoc/images/footer-gopher.jpg",
 		Embeds: []Embed{
 			{
-				Title:       "市场异动机器人配置",
+				Title:       "Win Win Win",
 				Description: "This is the embed's description",
 				Url:         "https://github.com/etaaa/go-webhooks",
 				Timestamp:   GetTimestamp(),      // RETURNS NEW TIMESTAMP ACCORDING TO DISCORD'S FORMAT
